@@ -62,7 +62,7 @@ const Login = () => {
         
         
        const data=await fetch("https://gmailclone-6c3i.onrender.com/api/gmail/login",{
-         method:"POST",Mode:"cors",
+         method:"POST",mode:"cors",
          headers:{
              "Content-Type":"application/json"
             
