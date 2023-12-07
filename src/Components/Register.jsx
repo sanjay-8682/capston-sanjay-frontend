@@ -56,7 +56,7 @@ const Register = () => {
             alert("password must be 8 charecters");
           }else{
            alert("user registration successfully");
-           const data=await fetch("http://localhost:4000/api/gmail/register",{
+           const data=await fetch("https://gmailclone-6c3i.onrender.com/api/gmail/register",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"

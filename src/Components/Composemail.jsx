@@ -84,7 +84,7 @@ const Composemail = ({openDialog,setOpenDialog}) => {
         setOpenDialog(false);
 
       console.log(data);
-        const res1=await fetch("http://localhost:4000/api/gmail/sendmail",{
+        const res1=await fetch("https://gmailclone-6c3i.onrender.com/api/gmail/sendmail",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json",
