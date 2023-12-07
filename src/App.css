@@ -1,0 +1,16 @@
+ 
+.container{
+  text-align: center;
+  border: solid rgb(216, 216, 216) 2px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 200px;
+
+}
+
+.form_input{
+  padding: 20px;
+
+}
+
