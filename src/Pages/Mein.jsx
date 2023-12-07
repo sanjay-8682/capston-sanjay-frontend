@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import React from 'react';
 import Header from '../Components/Header';
-import Sidebar from '../Components/SideBar';
+import Sidebar from '../Components/Sidebar';
 import Emails from '../Components/Emails';
 
 const Mein = () => {
